@@ -1,0 +1,18 @@
+﻿Build started 10/6/2014 3:27:23 PM.
+Project "\\home\tristanolivermall212\Visual Studio 2010\Projects\Circular_List\Circular_List\Circular_List.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Debug\Circular_List.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Queue_Tester.cpp
+  Queue_Tester.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\home\tristanolivermall212\Visual Studio 2010\Projects\Circular_List\Debug\Circular_List.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Circular_List.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\home\tristanolivermall212\Visual Studio 2010\Projects\Circular_List\Debug\Circular_List.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\home\tristanolivermall212\Visual Studio 2010\Projects\Circular_List\Debug\Circular_List.lib" /MACHINE:X86 Debug\Queue.obj
+  Debug\Queue_Tester.obj
+  LINK : \\home\tristanolivermall212\Visual Studio 2010\Projects\Circular_List\Debug\Circular_List.exe not found or not built by the last incremental link; performing full link
+Queue_Tester.obj : error LNK2019: unresolved external symbol "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Queue &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@AAVQueue@@@Z) referenced in function _main
+\\home\tristanolivermall212\Visual Studio 2010\Projects\Circular_List\Debug\Circular_List.exe : fatal error LNK1120: 1 unresolved externals
+Done Building Project "\\home\tristanolivermall212\Visual Studio 2010\Projects\Circular_List\Circular_List\Circular_List.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.51
